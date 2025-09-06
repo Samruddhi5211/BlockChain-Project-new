@@ -1,0 +1,119 @@
+/* Admin.css */
+
+.admin-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f7f9fc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .admin-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .admin-buttons button {
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .admin-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .candidate-form,
+  .election-status,
+  .results-section,
+  .show-candidates {
+    margin-top: 30px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  input[type="text"],
+  input[type="file"] {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .candidate-form button,
+  .election-status button {
+    margin-top: 10px;
+    padding: 10px 18px;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .candidate-form button:disabled,
+  .election-status button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: #f1f1f1;
+    padding: 12px;
+    border-radius: 8px;
+  }
+  
+  ul li img {
+    border-radius: 8px;
+    margin-right: 15px;
+  }
+  
+  .winner-card {
+    text-align: center;
+    background-color: #e7ffe7;
+    border: 2px solid #28a745;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .winner-card img {
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+  
+  .show-candidates p {
+    margin-top: 20px;
+    font-style: italic;
+    color: #555;
+  }
+  
